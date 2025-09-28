@@ -10,6 +10,9 @@ Each community is annotated with a number in the VMD model. The number is positi
 - Trajectory file: .xtc file (located in data folder)
 - Python file: Generate tcl file from JSON file (located in scripts folder)
 
+# Data & Scripts Location
+All input data, JSON files, structure files, trajectories, and scripts for the models (a4b1, alphaIIb_beta3, alphaV_beta3, aVbe) are available in the Dropbox folder: https://www.dropbox.com/scl/fo/hjaoe9znyzvm39qj4wk8c/ALff8uAdk3ae9xNlvXVajT4?rlkey=poaoz1d5wc3bloo9jk0ouxlip&st=25w6k0nl&dl=0
+
 # How to Use Python to Generate TCL
 - Make sure the JSON file is saved in the same folder as the Python script.
 - Open the Python file (py_to_tcl.py) in VS Code, IntelliJ, or Notepad++.
