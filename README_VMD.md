@@ -1,7 +1,7 @@
 # Objective
 This project provides a Python script that generates a Tcl script for VMD to visualize dynamic community assignments of residues over time. Given a JSON file containing residue assignments to communities across multiple timestamps, the script enables users to color-code residues according to their community membership for each frame of a trajectory.
 
-Each community is annotated with a number directly in the VMD model, positioned near the corresponding residues, enabling communities to be visually distinguished and tracked throughout the trajectory. This dynamic visualization facilitates direct observation of structural rearrangements over time and supports detailed analysis of both local residue interactions and global conformational changes.
+Each community is annotated with a number in the VMD model. The number is positioned near the corresponding residues. Each community is assigned a unique color from a set of 17 distinct colors. This makes communities easy to distinguish and track throughout the trajectory. The visualization allows you to observe structural rearrangements over time. It also supports detailed analysis of local residue interactions and global conformational changes.
 
 # Required Inputs
 - JSON file: Contains community assignments for residues over time frames. (located in communities folder)
@@ -24,6 +24,6 @@ Each community is annotated with a number directly in the VMD model, positioned 
 # Example Visualization
 Below is an example snapshot of the VMD model generated using the Tcl script:
 
-<img width="2800" height="1808" alt="image" src="https://github.com/user-attachments/assets/0db4b392-546e-4738-8e73-6443049e903d" />
+<img width="280" height="180" alt="image" src="https://github.com/user-attachments/assets/0db4b392-546e-4738-8e73-6443049e903d" />
 
 
