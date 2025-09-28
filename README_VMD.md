@@ -24,6 +24,6 @@ Each community is annotated with a number in the VMD model. The number is positi
 # Example Visualization
 Below is an example snapshot of the VMD model generated using the Tcl script:
 
-<img width="280" height="180" alt="image" src="https://github.com/user-attachments/assets/0db4b392-546e-4738-8e73-6443049e903d" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0db4b392-546e-4738-8e73-6443049e903d" />
 
 
