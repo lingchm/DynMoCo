@@ -21,3 +21,9 @@ Each community is annotated with a number directly in the VMD model, positioned 
 2. Load the trajectory file (.xtc) on top of the structure file: File -> New Molecule -> [filename]
 3. Source the TCL file in VMD main: Plugin -> TK console -> source /full/path/to/your/tcl/file.tcl
 
+# Example Visualization
+Below is an example snapshot of the VMD model generated using the Tcl script:
+
+<img width="2800" height="1808" alt="image" src="https://github.com/user-attachments/assets/0db4b392-546e-4738-8e73-6443049e903d" />
+
+
