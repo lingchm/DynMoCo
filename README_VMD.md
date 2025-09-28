@@ -22,8 +22,15 @@ Each community is annotated with a number in the VMD model. The number is positi
 3. Source the TCL file in VMD main: Plugin -> TK console -> source /full/path/to/your/tcl/file.tcl
 
 # Example Visualization
-Below is an example snapshot of the VMD model generated using the Tcl script:
-
+Below are example snapshots of the VMD model generated using the Tcl script.
+1. Community Overview:
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0db4b392-546e-4738-8e73-6443049e903d" />
+
+2. AlphaIIb Beta3 Model (C1-C2 interaction):
+Communities C1 and C2 are highlighted with distinct colors, while the remaining communities are shown in neutral colors to provide clear visualization of interactions between C1 and C2.
+
+You can also explore this in 3D in VMD by loading the example visualization state provided in the scripts folder. Guide: Load the .pdb or .gro file, then the .xtc trajectory, and finally load the visualization state alphaIIb_beta3_C1-C2 interaction.vmd.
+
+<img width="600" height="400" alt="alphaIIb_beta3_C1-C2 interaction" src="https://github.com/user-attachments/assets/757abe96-1e6e-4978-8d98-7e9ef6eba317" />
 
 
