@@ -4,9 +4,11 @@ This project provides a Python script that generates a Tcl script for VMD to vis
 Each community is annotated with a number directly in the VMD model, positioned near the corresponding residues, enabling communities to be visually distinguished and tracked throughout the trajectory. This dynamic visualization facilitates direct observation of structural rearrangements over time and supports detailed analysis of both local residue interactions and global conformational changes.
 
 # Required Inputs
-- JSON file: Contains community assignments for residues over time frames. Example format: {"0": {"C1": [0,1,2]}}
-- Structure file: .pdb or .gro file
-- Trajectory file: .xtc file
+- JSON file: Contains community assignments for residues over time frames. (located in communities folder)
+  Example format: {"0": {"C1": [0,1,2]}} 
+- Structure file: .pdb or .gro file (located in data folder)
+- Trajectory file: .xtc file (located in data folder)
+- Python file: Generate tcl file from JSON file (located in scripts folder)
 
 # How to Use Python to Generate TCL
 - Make sure the JSON file is saved in the same folder as the Python script.
