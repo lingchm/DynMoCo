@@ -28,9 +28,12 @@ All input data, JSON files, structure files, trajectories, and scripts for the m
 Below are example snapshots of the VMD model generated using the Tcl script.
 1. Community Overview:
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0db4b392-546e-4738-8e73-6443049e903d" />
+[aIIbbeta3-ramp_AllComm.bmp](https://github.com/user-attachments/files/22624029/aIIbbeta3-ramp_AllComm.bmp)
 
 2. AlphaIIb Beta3 Model (C1-C2 interaction):
-Communities C1 and C2 are highlighted with distinct colors, while the remaining communities are shown in neutral colors to provide clear visualization of interactions between C1 and C2.
+The TCL script assigns the community number of each atom in four different DynMoCo timesteps to the User, User2, User3, and User4 variables on VMD. This feature could be used to highlight communities, e.g. "set my_selection [atomselect top "user4 == 5"]" command would select all of the atoms that are in C5 in the fourth timestep.
+
+Here, communities C1 and C2 are highlighted with distinct colors, while the remaining communities are shown in neutral colors to provide clear visualization of interactions between C1 and C2.
 
 You can also explore this in 3D in VMD by loading the example visualization state provided in the scripts folder. Guide: Load the .pdb or .gro file, then the .xtc trajectory, and finally load the visualization state alphaIIb_beta3_C1-C2 interaction.vmd.
 
