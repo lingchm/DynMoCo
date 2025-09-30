@@ -31,7 +31,7 @@ Below are example snapshots of the VMD model generated using the Tcl script.
 
 2. AlphaIIb Beta3 Model (C1-C2 interaction):
 
-The TCL script assigns the community number of each atom in four different DynMoCo timesteps to the User, User2, User3, and User4 variables on VMD. This feature could be used to highlight communities, e.g. "set my_selection [atomselect top "user4 == 5"]" command would select all of the atoms that are in C5 in the fourth timestep.
+The TCL script assigns the community number of each atom in four different DynMoCo timesteps to the User, User2, User3, and User4 variables on VMD. This feature could be used to select/hide/unhide communities, e.g. "set my_selection [atomselect top "user4 == 5"]" command would select all of the atoms that are in C5 in the fourth timestep.
 
 Here, communities C1 and C2 are highlighted with distinct colors, while the remaining communities are shown in neutral colors to provide clear visualization of interactions between C1 and C2.
 
