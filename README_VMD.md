@@ -28,7 +28,6 @@ All input data, JSON files, structure files, trajectories, and scripts for the m
 Below are example snapshots of the VMD model generated using the Tcl script.
 1. Community Overview:
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0db4b392-546e-4738-8e73-6443049e903d" />
-<img width="600" height="400" alt="image" src="ttps://github.com/user-attachments/files/22624029/aIIbbeta3-ramp_AllComm.bmp" />
 
 2. AlphaIIb Beta3 Model (C1-C2 interaction):
 
