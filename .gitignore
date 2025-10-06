@@ -166,9 +166,6 @@ wandb/
 # MLflow
 mlruns/
 
-# Jupyter notebook outputs
-*.ipynb
-
 # IDE files
 .vscode/
 .idea/
