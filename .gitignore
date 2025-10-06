@@ -5,8 +5,7 @@ data/a5b1 Clamp
 data/aVb3 Clamp
 data/alpha2bbeta3 Ramp
 data/alphaVbeta3 Ramp
-communities/
-notebooks/pagerank.ipynb
+# notebooks/pagerank.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -85,7 +84,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+# .ipynb_checkpoints
 
 # IPython
 profile_default/
