@@ -1,0 +1,11 @@
+torch>=1.9.0
+torch-sparse>=0.6.0
+torch-scatter>=2.0.0
+torch-geometric>=2.0.0
+numpy>=1.19.0
+scipy>=1.7.0
+scikit-learn>=0.24.0 
+cytoolz>=1.0.1
+gudhi==3.11.0
+pot==0.8.1
+eagerpy

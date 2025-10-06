@@ -6,8 +6,8 @@
 import json
 
 # User parameters
-json_file = "/path/to/your/file.json"  # input JSON
-output_tcl = "name_you_want_your_tcl_to_be.tcl"
+json_file = "results/a5b1_clamp/dynmoco/communities_clean.json"  # input JSON
+output_tcl = "a5b1_clamp_example.tcl"
 selection_type = "residue"
 ntimestamps = 4 # number of timestamps in the JSON file
 
