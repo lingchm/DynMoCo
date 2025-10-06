@@ -1,7 +1,10 @@
 # folders
 results/
 MFC-TopoReg-main/
-data/
+data/a5b1 Clamp
+data/aVb3 Clamp
+data/alpha2bbeta3 Ramp
+data/alphaVbeta3 Ramp
 communities/
 notebooks/pagerank.ipynb
 
