@@ -7,5 +7,7 @@ There are four datasets from three integrins and under two types of SMD simulati
 - a5b1 Clamp ([paper](https://pubs.acs.org/doi/10.1021/acsnano.3c06253)): the integrin is clamped at four different extension levels (12, 14, 16, 18nm). These are treated as four timesteps in the DynMoCo model. 
 - aVb3 Clamp ([paper](https://pubs.acs.org/doi/10.1021/acsnano.3c06253)): the integrin is clamped at four different extension levels (3, 11, 16, 18nm). These are treated as four timesteps in the DynMoCo model. 
 - alpha2bbeta3 Ramp: ([paper](https://pubmed.ncbi.nlm.nih.gov/39706199/)): we extracted four equally distributed 10s segments ('0-10', '63-73', '126-136', '189-199') from the trajectory as four timesteps in the DynMoCo model. 
-- alphaVbeta3 Ramp: ([paper](https://pubmed.ncbi.nlm.nih.gov/39706199/)): we extracted four equally distributed 10s segments ('0-10', '63-73', '126-136', '189-199') from the trajectory as four timesteps in the DynMoCo model. 
+- alphaVbeta3 Ramp: ([paper](https://pubmed.ncbi.nlm.nih.gov/39706199/)): we extracted four equally distributed 10s segments ('0-10', '63-73', '126-136', '189-199') from the trajectory as four timesteps in the DynMoCo model.
+
+Data can be accessed from [https://drive.google.com/drive/folders/1ONeeLuYIpbmnc1I-BA96ZwamQgSb15wi?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto](https://drive.google.com/drive/folders/1ONeeLuYIpbmnc1I-BA96ZwamQgSb15wi?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto) 
 
